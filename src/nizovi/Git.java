@@ -6,5 +6,5 @@ public class Git {
     -promjena -add.-sve promjene ili add
      - git commit - snimanje
      -git push - isticanje gore-slanje
-     git 04121986snjeza*/
+     */
 }
