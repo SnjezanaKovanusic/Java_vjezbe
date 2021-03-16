@@ -6,6 +6,9 @@ public class Combinations_7_28 {
         for (int i =0; i<niz.length; i++){
             for (int j = 0; i <niz.length; j++){
                 System.out.println(niz[i]+" "+ niz[j]);
+                System.out.println(niz[i]+" "+ niz[j]);
+                System.out.println(niz[i]+" "+ niz[j]);
+                System.out.println(niz[i]+" "+ niz[j]);
                 }
             }
         }
