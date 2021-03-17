@@ -21,4 +21,10 @@ public class PomocnaKlasa {
         }
         return niz;
     }
+
+    public static void ispisiNiz(int[] reverse) {
+        for (int n : reverse) {
+            System.out.print(" " + n);
+        }
+    }
 }
