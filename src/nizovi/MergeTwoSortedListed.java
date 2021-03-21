@@ -1,6 +1,7 @@
 package nizovi;
 
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class MergeTwoSortedListed {
     /*(Merge two sorted lists) Write the following method that merges two sorted lists
@@ -15,6 +16,8 @@ public class MergeTwoSortedListed {
     public static void main(String[] args) {
         int[] niz = {1, 2, 3, 4, 5};
         int[] niz2 = {5, 6, 7, 8, 9, 25};
+
+
         System.out.println(Arrays.toString(spoji(niz, niz2)));
     }
 
@@ -29,9 +32,11 @@ public class MergeTwoSortedListed {
         for (int i = 0; i < niz.length; i++) {
             nizSpojeni[i] += niz[i];
         }
+
         for (int i = 0; i < niz2.length; i++) {
             nizSpojeni[i + niz.length] += niz2[i];
         }
+
         Arrays.sort(nizSpojeni);
         return nizSpojeni;
     }

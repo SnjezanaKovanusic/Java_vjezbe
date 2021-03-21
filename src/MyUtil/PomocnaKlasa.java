@@ -26,5 +26,9 @@ public class PomocnaKlasa {
         for (int n : reverse) {
             System.out.print(" " + n);
         }
+    }    public static void ispisiNiz(String[] reverse) {
+        for (String n : reverse) {
+            System.out.print(" " + n);
+        }
     }
 }
