@@ -13,7 +13,7 @@ public class SortStudents {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String[] imena = {"A", "B", "C"};
-        int[] bodovi = {34, 2, 25};
+        Integer[] bodovi = {34, 2, 25};
         System.out.println("Unesite broj bodova i ime studenta: ");
       /*  for (int i = 0; i < bodovi.length; i++) {
             bodovi[i] = scanner.nextInt();
@@ -33,15 +33,10 @@ public class SortStudents {
         PomocnaKlasa.ispisiNiz(imena);
     }
 
-    private static void zamjeniMjesta(int[] bodovi, int i, int j) {
-        int tmp = bodovi[i];
+    private static void zamjeniMjesta(Object[] bodovi, int i, int j) {
+        Object tmp = bodovi[i];
         bodovi[i] = bodovi[j];
         bodovi[j] = tmp;
     }
 
-    private static void zamjeniMjesta(String[] imena, int i, int j) {
-        String tmp = imena[i];
-        imena[i] = imena[j];
-        imena[j] = tmp;
-    }
 }

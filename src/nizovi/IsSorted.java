@@ -9,7 +9,7 @@ the list is sorted or not. Here is a sample run. Note that the first number in t
 input indicates the number of the elements in the list. This number is not part
 of the list. */
     public static void main(String[] args) {
-        int[] niz = {1, 3, 2, 4};
+        int[] niz = {1, 2, 3, 2,56,67,6};
         if (isSorted(niz)) {
             System.out.println("Alredy sorted!");
         } else {

@@ -12,7 +12,7 @@ Write a test program that reads in ten integers, invokes the method, and display
 the result. Here is the sample run of the program:*/
     public static void main(String[] args) {
         int[] niz = {1, 2, 1, 2, 1, 3, 2, 1, 1, 1, 1, 1, 45, 1, 1, 1, 46};
-        PomocnaKlasa.ispisiNiz(bezDuplih(niz));
+    //    PomocnaKlasa.ispisiNiz(bezDuplih(niz));
     }
 
     public static int[] bezDuplih(int[] niz) {

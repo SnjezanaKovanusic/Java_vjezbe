@@ -22,8 +22,8 @@ public class PomocnaKlasa {
         return niz;
     }
 
-    public static void ispisiNiz(int[] reverse) {
-        for (int n : reverse) {
+    public static void ispisiNiz(Object[] reverse) {
+        for (Object n : reverse) {
             System.out.print(" " + n);
         }
     }    public static void ispisiNiz(String[] reverse) {
