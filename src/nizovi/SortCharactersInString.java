@@ -33,6 +33,7 @@ string.*/
         for (int i = 0; i < sotiranaRijec.length; i++) {
             sortiraniString += sotiranaRijec[i];
         }
+        System.out.println(sortiraniString);
         return sortiraniString;
     }
 }
